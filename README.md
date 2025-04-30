@@ -11,7 +11,50 @@ Develop a scenario-based report that demonstrates how diverse prompting techniqu
 
 # Algorithm:
 
+### Step 1: Data Collection
+1. **Input Data**: Provide the healthcare case data (e.g., symptoms, medical history, test results) in a structured format.
+2. **Select AI Tools**: Choose two AI platforms for evaluation: **ChatGPT** and **Claude**.
 
+### Step 2: Apply Different Prompting Techniques
+1. **Straightforward Prompts**:
+   - Prompt: Provide basic symptoms and request a diagnosis and treatment suggestion.
+   - Example Prompt: "The patient presents with shortness of breath, fever, and chest pain. Based on these symptoms, what is the likely diagnosis and treatment?"
+
+2. **Tabular Format Prompting**:
+   - Present the data in a table format, listing symptoms, medical history, and test results.
+   - Example Prompt: "Here’s the patient data in a tabular format: [Table with symptoms, medical history, and test results]. Based on this, what would be the likely diagnosis and recommended treatment?"
+
+3. **Missing Word Prompting**:
+   - Provide a partially completed sentence and ask the AI to fill in the missing information.
+   - Example Prompt: "The patient's likely diagnosis is _____, and the recommended treatment involves _____."
+
+### Step 3: Submit to AI Platforms
+1. **Submit Prompt to ChatGPT**: Use the selected prompt with **ChatGPT**.
+2. **Submit Prompt to Claude**: Use the same selected prompt with **Claude**.
+
+### Step 4: Collect Responses
+1. **ChatGPT Output**: Collect and store ChatGPT's response.
+2. **Claude Output**: Collect and store Claude's response.
+
+### Step 5: Evaluation Criteria
+1. **Accuracy**: Check if the AI correctly identifies the disease and recommends suitable treatment.
+2. **Completeness**: Ensure that the AI's response includes all necessary diagnostic steps and treatment plans.
+3. **Simplicity**: Evaluate if the response is easy to understand, especially for non-medical professionals.
+4. **Coherence**: Assess if the response is logically structured and follows a clear reasoning process.
+
+### Step 6: Comparative Analysis
+1. Compare **ChatGPT** and **Claude** based on the evaluation criteria.
+2. Identify strengths and weaknesses of each AI platform in terms of clarity, specificity, and appropriateness of the response.
+
+### Step 7: Generate Report
+1. **Tabulate Findings**: Present the results in a table format for easy comparison.
+2. **Conclusion**: Summarize the findings, highlighting the best-performing platform for each prompt type.
+3. **Recommendations**: Suggest the most effective prompting strategy and platform based on the evaluation.
+
+### Step 8: Reporting
+- Output the final evaluation report, including the comparison of accuracy, completeness, simplicity, and coherence for each AI platform.
+
+---
 
 # OUTPUT 
 ## 📚 Use Case
